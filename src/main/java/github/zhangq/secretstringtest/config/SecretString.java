@@ -1,6 +1,7 @@
 package github.zhangq.secretstringtest.config;
 
 
+import github.zhangq.secretstringtest.config.SecurityUtil;
 import lombok.Getter;
 import lombok.Setter;
 
