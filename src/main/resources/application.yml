@@ -2,9 +2,9 @@ spring:
   application:
     name: cdn-user
   datasource:
-    url: jdbc:mysql://172.28.64.35/ncdtp?useUnicode=true&characterEncoding=utf-8&useSSL=false
-    username: root
-    password: cmcc2017
+    url: jdbc:mysql://ipaddress/ncdtp?useUnicode=true&characterEncoding=utf-8&useSSL=false
+    username: username
+    password: password
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: com.mysql.jdbc.Driver
     filters: stat
