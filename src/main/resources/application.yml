@@ -11,15 +11,4 @@ spring:
 
 mybatis:
   mapper-locations: classpath:mapping/*.xml
-  configuration:
-    map-underscore-to-camel-case: true
-    lazy-loading-enabled: true
-    multiple-result-sets-enabled: true
-    use-column-label: true
-    use-generated-keys: false
-    auto-mapping-behavior: partial
-    safe-row-bounds-enabled: false
-    local-cache-scope: session
-    jdbc-type-for-null: other
-    aggressive-lazy-loading: false
   type-handlers-package: github.zhangq.secretstringtest.config
